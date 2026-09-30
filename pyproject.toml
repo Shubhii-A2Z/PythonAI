@@ -1,0 +1,19 @@
+[project]
+name = "pythonaiconcepts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "negishubham2005@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+]
+
+[project.scripts]
+pythonaiconcepts = "pythonaiconcepts:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
